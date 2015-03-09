@@ -1,0 +1,19 @@
+You can download the web drivers for specific browser types here:
+
+Chrome: "ChromeDriver.exe"
+http://chromedriver.storage.googleapis.com/index.html
+
+Internet Explorer: "IEDriverServer.exe"
+http://selenium-release.storage.googleapis.com/index.html
+--> the x64-version has a major performance issue. Recommending the x86 instead, even on 64-bit CPU.
+
+Firefox:
+I believe this is available by default when you have Firefox installed.
+
+Safari:
+(not used yet)
+
+PhantomJS
+PhantomJS is a headless browser technique that performs browsing without rendering. It supports javascript and the
+document object model and can render screenshots. The webdriver 'phantomjs.exe' is a larger WebDriver because this
+contains both the Browser itself and the driver.
