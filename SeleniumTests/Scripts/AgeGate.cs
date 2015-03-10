@@ -7,6 +7,12 @@ namespace SeleniumTests.Scripts
     [TestFixture]
     public class AgeGate : BaseTest
     {
+        [SetUp]
+        public void SetupTest()
+        {
+            baseURL = "https://www.the-sub.com/";
+        }
+
         [Test]
         public void TheAgeGateTest()
         {

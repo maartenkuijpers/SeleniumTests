@@ -67,6 +67,8 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\AgeGate.html" />
+    <Content Include="Scripts\GoogleSmall.html" />
     <Content Include="WebDrivers\chromedriver.exe" />
     <Content Include="WebDrivers\IEDriverServer.exe" />
     <Content Include="WebDrivers\IEDriverServer_x64.exe" />
